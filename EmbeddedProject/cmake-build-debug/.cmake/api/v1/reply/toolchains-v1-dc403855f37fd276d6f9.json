@@ -1,0 +1,91 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "C:/softwares/RISC-V-Embedded-GCC/bin/riscv-none-embed-gcc.exe",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/softwares/RISC-V-Embedded-GCC/lib/gcc/riscv-none-embed/8.2.0/include",
+						"C:/softwares/RISC-V-Embedded-GCC/lib/gcc/riscv-none-embed/8.2.0/include-fixed",
+						"C:/softwares/RISC-V-Embedded-GCC/riscv-none-embed/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/softwares/RISC-V-Embedded-GCC/bin/riscv-none-embed-gcc.exe",
+				"version" : "8.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/softwares/RISC-V-Embedded-GCC/riscv-none-embed/include/c++/8.2.0",
+						"C:/softwares/RISC-V-Embedded-GCC/riscv-none-embed/include/c++/8.2.0/riscv-none-embed/rv32imac/ilp32",
+						"C:/softwares/RISC-V-Embedded-GCC/riscv-none-embed/include/c++/8.2.0/backward",
+						"C:/softwares/RISC-V-Embedded-GCC/lib/gcc/riscv-none-embed/8.2.0/include",
+						"C:/softwares/RISC-V-Embedded-GCC/lib/gcc/riscv-none-embed/8.2.0/include-fixed",
+						"C:/softwares/RISC-V-Embedded-GCC/riscv-none-embed/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/softwares/RISC-V-Embedded-GCC/bin/riscv-none-embed-g++.exe",
+				"version" : "8.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

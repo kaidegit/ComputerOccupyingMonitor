@@ -1,0 +1,929 @@
+Archive member included to satisfy reference by file (symbol)
+
+../SRC/StdPeriphDriver/libISP573.a(ISP573.o)
+                              CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj (FLASH_EEPROM_CMD)
+c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+                              CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj (__muldf3)
+c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
+                              CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj (__floatsidf)
+c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(mulsf3.o)
+                              CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj (__mulsf3)
+c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixsfsi.o)
+                              CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj (__fixsfsi)
+c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsisf.o)
+                              CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj (__floatsisf)
+c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(truncdfsf2.o)
+                              CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj (__truncdfsf2)
+c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+                              c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o) (__clzsi2)
+c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+                              c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o) (__clz_tab)
+c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-memset.o)
+                              CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj (memset)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.ADC_DataCalib_Rough
+                0x0000000000000000      0x168 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.ADC_ExtSingleChSampInit
+                0x0000000000000000       0x6e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.ADC_ExtDiffChSampInit
+                0x0000000000000000       0x6e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.ADC_InterTSSampInit
+                0x0000000000000000       0x5e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.ADC_InterBATSampInit
+                0x0000000000000000       0x4c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.TouchKey_ChSampInit
+                0x0000000000000000       0x42 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.ADC_ExcutSingleConver
+                0x0000000000000000       0x4e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.TouchKey_ExcutSingleConver
+                0x0000000000000000       0x8a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.ADC_AutoConverCycle
+                0x0000000000000000       0x24 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.ADC_DMACfg
+                0x0000000000000000       0xe2 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text.ADC_GetCurrentTS
+                0x0000000000000000       0x8c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .debug_info    0x0000000000000000      0xedf CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .debug_abbrev  0x0000000000000000      0x2cb CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .debug_aranges
+                0x0000000000000000       0x70 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .debug_ranges  0x0000000000000000       0x60 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .debug_line    0x0000000000000000      0x835 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .debug_str     0x0000000000000000      0xa65 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .debug_frame   0x0000000000000000      0x178 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .sbss.Int32K_Tune_FLASH
+                0x0000000000000000        0x2 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .sbss.Int32K_Tune_RAM
+                0x0000000000000000        0x2 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.LClk32K_Select
+                0x0000000000000000       0x8c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.HSECFG_Current
+                0x0000000000000000       0x7c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.HSECFG_Capacitance
+                0x0000000000000000       0x7e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.LSECFG_Current
+                0x0000000000000000       0x7c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.LSECFG_Capacitance
+                0x0000000000000000       0x7c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.Calibration_LSI_FLASH
+                0x0000000000000000      0x4aa CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .highcode      0x0000000000000000       0xb6 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.Calibration_LSI_RAM
+                0x0000000000000000      0x420 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.LSI_SetTune_FLASH
+                0x0000000000000000       0x52 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.LSI_SetTune_RAM
+                0x0000000000000000       0x52 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.RTC_InitTime
+                0x0000000000000000      0x296 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.RTC_GetTime
+                0x0000000000000000      0x314 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.RTC_SetCycle32k
+                0x0000000000000000       0xb8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.RTC_GetCycle32k
+                0x0000000000000000       0x32 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.RTC_TMRFunCfg
+                0x0000000000000000       0x92 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.RTC_TRIGFunCfg
+                0x0000000000000000       0x88 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.RTC_ModeFunDisable
+                0x0000000000000000       0xa6 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.RTC_GetITFlag
+                0x0000000000000000       0x4a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text.RTC_ClearITFlag
+                0x0000000000000000       0x46 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .rodata        0x0000000000000000       0x18 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .debug_info    0x0000000000000000     0x13ae CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .debug_abbrev  0x0000000000000000      0x345 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .debug_aranges
+                0x0000000000000000       0xb0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .debug_ranges  0x0000000000000000       0xa0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .debug_line    0x0000000000000000     0x16d9 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .debug_str     0x0000000000000000      0xc42 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .debug_frame   0x0000000000000000      0x28c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .text.FLASH_ROM_READ
+                0x0000000000000000       0x6e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .debug_info    0x0000000000000000      0xc2e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .debug_abbrev  0x0000000000000000      0x21a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .debug_aranges
+                0x0000000000000000       0x20 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .debug_ranges  0x0000000000000000       0x10 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .debug_line    0x0000000000000000      0x2d4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .debug_str     0x0000000000000000      0x819 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .debug_frame   0x0000000000000000       0x30 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .text.GPIOA_ITModeCfg
+                0x0000000000000000      0x1b6 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .text.GPIOB_ITModeCfg
+                0x0000000000000000      0x1ca CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .text.GPIOPinRemap
+                0x0000000000000000       0x7a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .text.GPIOAGPPCfg
+                0x0000000000000000       0x7a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .text.PWMX_AlterOutCfg
+                0x0000000000000000       0x78 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .text.PWR_DCDCCfg
+                0x0000000000000000      0x10e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .text.PWR_UnitModCfg
+                0x0000000000000000      0x15c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .text.PWR_PeriphClkCfg
+                0x0000000000000000       0x9e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .text.PWR_PeriphWakeUpCfg
+                0x0000000000000000      0x130 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .text.PowerMonitor
+                0x0000000000000000      0x152 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .highcode      0x0000000000000000      0x9ec CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .debug_info    0x0000000000000000     0x1175 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .debug_abbrev  0x0000000000000000      0x2eb CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .debug_aranges
+                0x0000000000000000       0x60 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .debug_ranges  0x0000000000000000       0x50 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .debug_line    0x0000000000000000      0xb63 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .debug_str     0x0000000000000000      0xbb1 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .debug_frame   0x0000000000000000      0x168 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_MasterDefInit
+                0x0000000000000000       0x6e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_CLKCfg
+                0x0000000000000000       0x6e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_DataMode
+                0x0000000000000000      0x12c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_MasterSendByte
+                0x0000000000000000       0x52 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_MasterRecvByte
+                0x0000000000000000       0x58 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_MasterTrans
+                0x0000000000000000       0xa8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_MasterRecv
+                0x0000000000000000       0x98 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_MasterDMATrans
+                0x0000000000000000       0xca CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_MasterDMARecv
+                0x0000000000000000       0xcc CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_SlaveInit
+                0x0000000000000000       0x44 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_SlaveRecvByte
+                0x0000000000000000       0x4a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_SlaveSendByte
+                0x0000000000000000       0x4e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_SlaveRecv
+                0x0000000000000000       0x8a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_SlaveTrans
+                0x0000000000000000       0x9a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_SlaveDMARecv
+                0x0000000000000000       0xcc CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text.SPI0_SlaveDMATrans
+                0x0000000000000000       0xca CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .debug_info    0x0000000000000000      0xedf CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .debug_abbrev  0x0000000000000000      0x2b1 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .debug_aranges
+                0x0000000000000000       0x98 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .debug_ranges  0x0000000000000000       0x88 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .debug_line    0x0000000000000000      0xa2b CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .debug_str     0x0000000000000000      0x98f CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .debug_frame   0x0000000000000000      0x214 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .text.GetSysClock
+                0x0000000000000000       0x6c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .text.SYS_GetInfoSta
+                0x0000000000000000       0x62 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .text.SYS_DisableAllIrq
+                0x0000000000000000       0xe8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .text.SYS_RecoverIrq
+                0x0000000000000000       0xd6 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .text.SYS_GetSysTickCnt
+                0x0000000000000000       0x76 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .text.WWDG_ITCfg
+                0x0000000000000000       0x8c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .text.WWDG_ResetCfg
+                0x0000000000000000       0x8c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .text.WWDG_ClearFlag
+                0x0000000000000000       0x5e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .text.TMR0_TimerInit
+                0x0000000000000000       0x32 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .text.TMR0_EXTSingleCounterInit
+                0x0000000000000000       0x3a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .text.TMR0_PWMInit
+                0x0000000000000000       0x48 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .text.TMR0_CapInit
+                0x0000000000000000       0x3a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .debug_info    0x0000000000000000      0xd04 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .debug_abbrev  0x0000000000000000      0x224 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .debug_aranges
+                0x0000000000000000       0x38 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .debug_ranges  0x0000000000000000       0x28 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .debug_line    0x0000000000000000      0x38e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .debug_str     0x0000000000000000      0x8f7 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .debug_frame   0x0000000000000000       0x90 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .text.TMR1_TimerInit
+                0x0000000000000000       0x3c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .text.TMR1_EXTSingleCounterInit
+                0x0000000000000000       0x42 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .text.TMR1_PWMInit
+                0x0000000000000000       0x4c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .text.TMR1_CapInit
+                0x0000000000000000       0x42 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .text.TMR1_DMACfg
+                0x0000000000000000       0x7e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .debug_info    0x0000000000000000      0xdac CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .debug_abbrev  0x0000000000000000      0x235 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .debug_aranges
+                0x0000000000000000       0x40 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .debug_ranges  0x0000000000000000       0x30 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .debug_line    0x0000000000000000      0x47d CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .debug_str     0x0000000000000000      0x952 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .debug_frame   0x0000000000000000       0xb0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .text.TMR2_TimerInit
+                0x0000000000000000       0x3c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .text.TMR2_EXTSingleCounterInit
+                0x0000000000000000       0x42 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .text.TMR2_PWMInit
+                0x0000000000000000       0x4c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .text.TMR2_CapInit
+                0x0000000000000000       0x42 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .text.TMR2_DMACfg
+                0x0000000000000000       0x7e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .debug_info    0x0000000000000000      0xdac CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .debug_abbrev  0x0000000000000000      0x235 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .debug_aranges
+                0x0000000000000000       0x40 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .debug_ranges  0x0000000000000000       0x30 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .debug_line    0x0000000000000000      0x47d CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .debug_str     0x0000000000000000      0x952 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .debug_frame   0x0000000000000000       0xb0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .text.TMR3_TimerInit
+                0x0000000000000000       0x3c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .text.TMR3_EXTSingleCounterInit
+                0x0000000000000000       0x42 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .text.TMR3_PWMInit
+                0x0000000000000000       0x4c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .text.TMR3_CapInit
+                0x0000000000000000       0x42 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .debug_info    0x0000000000000000      0xd04 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .debug_abbrev  0x0000000000000000      0x224 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .debug_aranges
+                0x0000000000000000       0x38 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .debug_ranges  0x0000000000000000       0x28 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .debug_line    0x0000000000000000      0x38e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .debug_str     0x0000000000000000      0x8f7 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .debug_frame   0x0000000000000000       0x90 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .text.UART0_DefInit
+                0x0000000000000000       0x54 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .text.UART0_BaudRateCfg
+                0x0000000000000000       0x5c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .text.UART0_ByteTrigCfg
+                0x0000000000000000       0x46 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .text.UART0_INTCfg
+                0x0000000000000000       0x94 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .text.UART0_Reset
+                0x0000000000000000       0x1c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .text.UART0_SendString
+                0x0000000000000000       0x60 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .text.UART0_RecvString
+                0x0000000000000000       0x56 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .debug_info    0x0000000000000000      0xd59 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .debug_abbrev  0x0000000000000000      0x29a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .debug_aranges
+                0x0000000000000000       0x50 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .debug_ranges  0x0000000000000000       0x40 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .debug_line    0x0000000000000000      0x506 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .debug_str     0x0000000000000000      0x8e1 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .debug_frame   0x0000000000000000       0xf8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .text.UART1_DefInit
+                0x0000000000000000       0x5c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .text.UART1_BaudRateCfg
+                0x0000000000000000       0x5e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .text.UART1_ByteTrigCfg
+                0x0000000000000000       0x4a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .text.UART1_INTCfg
+                0x0000000000000000       0xa4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .text.UART1_Reset
+                0x0000000000000000       0x1e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .text.UART1_SendString
+                0x0000000000000000       0x64 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .text.UART1_RecvString
+                0x0000000000000000       0x58 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .debug_info    0x0000000000000000      0xd59 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .debug_abbrev  0x0000000000000000      0x29a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .debug_aranges
+                0x0000000000000000       0x50 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .debug_ranges  0x0000000000000000       0x40 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .debug_line    0x0000000000000000      0x506 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .debug_str     0x0000000000000000      0x8e1 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .debug_frame   0x0000000000000000       0xf8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .text.UART2_DefInit
+                0x0000000000000000       0x5c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .text.UART2_BaudRateCfg
+                0x0000000000000000       0x5e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .text.UART2_ByteTrigCfg
+                0x0000000000000000       0x4a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .text.UART2_INTCfg
+                0x0000000000000000       0xa4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .text.UART2_Reset
+                0x0000000000000000       0x1e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .text.UART2_SendString
+                0x0000000000000000       0x64 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .text.UART2_RecvString
+                0x0000000000000000       0x58 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .debug_info    0x0000000000000000      0xd59 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .debug_abbrev  0x0000000000000000      0x29a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .debug_aranges
+                0x0000000000000000       0x50 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .debug_ranges  0x0000000000000000       0x40 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .debug_line    0x0000000000000000      0x506 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .debug_str     0x0000000000000000      0x8e1 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .debug_frame   0x0000000000000000       0xf8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .text.UART3_DefInit
+                0x0000000000000000       0x5c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .text.UART3_BaudRateCfg
+                0x0000000000000000       0x5e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .text.UART3_ByteTrigCfg
+                0x0000000000000000       0x4a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .text.UART3_INTCfg
+                0x0000000000000000       0xa4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .text.UART3_Reset
+                0x0000000000000000       0x1e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .text.UART3_SendString
+                0x0000000000000000       0x64 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .text.UART3_RecvString
+                0x0000000000000000       0x58 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .debug_info    0x0000000000000000      0xd59 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .debug_abbrev  0x0000000000000000      0x29a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .debug_aranges
+                0x0000000000000000       0x50 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .debug_ranges  0x0000000000000000       0x40 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .debug_line    0x0000000000000000      0x506 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .debug_str     0x0000000000000000      0x8e1 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .debug_frame   0x0000000000000000       0xf8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .sbss.pEP0_RAM_Addr
+                0x0000000000000000        0x4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .sbss.pEP1_RAM_Addr
+                0x0000000000000000        0x4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .sbss.pEP2_RAM_Addr
+                0x0000000000000000        0x4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .sbss.pEP3_RAM_Addr
+                0x0000000000000000        0x4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .text.USB_DeviceInit
+                0x0000000000000000      0x13e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .text.DevEP1_IN_Deal
+                0x0000000000000000       0x46 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .text.DevEP2_IN_Deal
+                0x0000000000000000       0x46 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .text.DevEP3_IN_Deal
+                0x0000000000000000       0x46 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .text.DevEP4_IN_Deal
+                0x0000000000000000       0x46 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .debug_info    0x0000000000000000      0xcb2 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .debug_abbrev  0x0000000000000000      0x217 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .debug_aranges
+                0x0000000000000000       0x40 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .debug_ranges  0x0000000000000000       0x30 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .debug_line    0x0000000000000000      0x4e2 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .debug_str     0x0000000000000000      0x844 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .debug_frame   0x0000000000000000       0xb4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .sbss.UsbDevEndp0Size
+                0x0000000000000000        0x1 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .sbss.FoundNewDev
+                0x0000000000000000        0x1 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .bss.ThisUsbDev
+                0x0000000000000000        0xe CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .bss.DevOnHubPort
+                0x0000000000000000       0x30 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .sbss.pHOST_RX_RAM_Addr
+                0x0000000000000000        0x4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .sbss.pHOST_TX_RAM_Addr
+                0x0000000000000000        0x4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .sdata2.SetupGetDevDescr
+                0x0000000000000000        0x8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .sdata2.SetupGetCfgDescr
+                0x0000000000000000        0x8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .sdata2.SetupSetUsbAddr
+                0x0000000000000000        0x8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .sdata2.SetupSetUsbConfig
+                0x0000000000000000        0x8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .sdata2.SetupSetUsbInterface
+                0x0000000000000000        0x8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .sdata2.SetupClrEndpStall
+                0x0000000000000000        0x8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.DisableRootHubPort
+                0x0000000000000000       0x26 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.AnalyzeRootHub
+                0x0000000000000000       0xb2 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.SetHostUsbAddr
+                0x0000000000000000       0x52 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.SetUsbSpeed
+                0x0000000000000000       0x78 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.ResetRootHubPort
+                0x0000000000000000       0xc2 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.EnableRootHubPort
+                0x0000000000000000       0xc8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.SelectHubPort
+                0x0000000000000000       0xec CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.WaitUSB_Interrupt
+                0x0000000000000000       0x54 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.USBHostTransact
+                0x0000000000000000      0x250 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.HostCtrlTransfer
+                0x0000000000000000      0x3b2 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.CopySetupReqPkg
+                0x0000000000000000       0x52 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.CtrlGetDeviceDescr
+                0x0000000000000000       0x9c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.CtrlGetConfigDescr
+                0x0000000000000000      0x10c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.CtrlSetUsbAddress
+                0x0000000000000000       0x9e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.CtrlSetUsbConfig
+                0x0000000000000000       0x74 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.CtrlClearEndpStall
+                0x0000000000000000       0x74 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.CtrlSetUsbIntercace
+                0x0000000000000000       0x74 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text.USB_HostInit
+                0x0000000000000000       0xd4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .debug_info    0x0000000000000000     0x1226 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .debug_abbrev  0x0000000000000000      0x34e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .debug_aranges
+                0x0000000000000000       0xa8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .debug_ranges  0x0000000000000000       0x98 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .debug_line    0x0000000000000000      0xff7 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .debug_str     0x0000000000000000      0xb45 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .debug_frame   0x0000000000000000      0x288 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .sdata2.SetupSetHIDIdle
+                0x0000000000000000        0x8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .sdata2.SetupGetHIDDevReport
+                0x0000000000000000        0x8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .sdata2.SetupGetHubDescr
+                0x0000000000000000        0x8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .bss.Com_Buffer
+                0x0000000000000000       0x80 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.AnalyzeHidIntEndp
+                0x0000000000000000      0x17e CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.AnalyzeBulkEndp
+                0x0000000000000000      0x234 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.InitRootDevice
+                0x0000000000000000      0x4e6 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.InitDevOnHub
+                0x0000000000000000      0x514 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.EnumHubPort
+                0x0000000000000000      0x33c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.EnumAllHubPort
+                0x0000000000000000       0x5a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.SearchTypeDevice
+                0x0000000000000000      0x106 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .srodata       0x0000000000000000        0x8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.SETorOFFNumLock
+                0x0000000000000000      0x11a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.CtrlGetHIDDeviceReport
+                0x0000000000000000      0x106 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.CtrlGetHubDescr
+                0x0000000000000000       0x76 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.HubGetPortStatus
+                0x0000000000000000       0xee CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.HubSetPortFeature
+                0x0000000000000000       0xea CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text.HubClearPortFeature
+                0x0000000000000000       0xea CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .debug_info    0x0000000000000000     0x144c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .debug_abbrev  0x0000000000000000      0x2f9 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .debug_aranges
+                0x0000000000000000       0x80 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .debug_ranges  0x0000000000000000       0x70 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .debug_line    0x0000000000000000     0x16d8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .debug_str     0x0000000000000000      0xce4 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .debug_frame   0x0000000000000000      0x1f8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+ .text          0x0000000000000000        0x0 ../SRC/StdPeriphDriver/libISP573.a(ISP573.o)
+ .data          0x0000000000000000        0x0 ../SRC/StdPeriphDriver/libISP573.a(ISP573.o)
+ .bss           0x0000000000000000        0x0 ../SRC/StdPeriphDriver/libISP573.a(ISP573.o)
+ .text          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .data          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .bss           0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .text.__muldf3
+                0x0000000000000000      0x4c8 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .rodata.__muldf3
+                0x0000000000000000       0x40 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .debug_frame   0x0000000000000000       0x54 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .text          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
+ .data          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
+ .bss           0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
+ .text.__floatsidf
+                0x0000000000000000       0x76 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
+ .debug_frame   0x0000000000000000       0x38 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
+ .text          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(mulsf3.o)
+ .text.__mulsf3
+                0x0000000000000000      0x29c c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(mulsf3.o)
+ .rodata.__mulsf3
+                0x0000000000000000       0x40 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(mulsf3.o)
+ .debug_frame   0x0000000000000000       0x50 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixsfsi.o)
+ .data          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixsfsi.o)
+ .bss           0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixsfsi.o)
+ .text.__fixsfsi
+                0x0000000000000000       0x62 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixsfsi.o)
+ .debug_frame   0x0000000000000000       0x20 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixsfsi.o)
+ .text          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsisf.o)
+ .text.__floatsisf
+                0x0000000000000000       0xcc c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsisf.o)
+ .debug_frame   0x0000000000000000       0x38 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(truncdfsf2.o)
+ .data          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(truncdfsf2.o)
+ .text.__truncdfsf2
+                0x0000000000000000      0x16a c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(truncdfsf2.o)
+ .debug_frame   0x0000000000000000       0x20 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(truncdfsf2.o)
+ .text          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .data          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .text.__clzsi2
+                0x0000000000000000       0x76 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_frame   0x0000000000000000       0x20 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .text          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .rodata.__clz_tab
+                0x0000000000000000      0x100 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .text          0x0000000000000000       0xa8 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000020003800 0x0000000000004800 xrw
+FLASH            0x0000000000000000 0x0000000000030000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libm.a
+LOAD CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_adc.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_clk.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_flash.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwr.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_spi0.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer0.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer1.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer2.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_timer3.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart0.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart1.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart2.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_uart3.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbdev.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostBase.c.obj
+LOAD CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_usbhostClass.c.obj
+LOAD ../SRC/StdPeriphDriver/libISP573.a
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+START GROUP
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+LOAD c:/softwares/risc-v-embedded-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a
+END GROUP
+
+.init           0x0000000000000000        0x4
+                0x0000000000000000                _sinit = .
+                0x0000000000000000                . = ALIGN (0x4)
+ *(SORT_NONE(.init))
+ .init          0x0000000000000000        0x4 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+                0x0000000000000000                _start
+                0x0000000000000004                . = ALIGN (0x4)
+                0x0000000000000004                _einit = .
+
+.highcodelalign
+                0x0000000000000004        0x0
+                0x0000000000000004                . = ALIGN (0x4)
+                0x0000000000000004                PROVIDE (_highcode_lma = .)
+
+.highcode       0x0000000020003800      0x870 load address 0x0000000000000004
+                0x0000000020003800                . = ALIGN (0x4)
+                0x0000000020003800                PROVIDE (_highcode_vma_start = .)
+ *(.vector)
+ .vector        0x0000000020003800       0x90 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+ *(SORT_NONE(.vector_handler))
+ .vector_handler
+                0x0000000020003890       0x2c CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+                0x0000000020003890                NMI_Handler
+                0x0000000020003894                SysTick_Handler
+                0x0000000020003896                SW_Handler
+                0x0000000020003898                TMR0_IRQHandler
+                0x000000002000389a                GPIOA_IRQHandler
+                0x000000002000389c                GPIOB_IRQHandler
+                0x000000002000389e                SPI0_IRQHandler
+                0x00000000200038a0                BB_IRQHandler
+                0x00000000200038a2                LLE_IRQHandler
+                0x00000000200038a4                USB_IRQHandler
+                0x00000000200038a6                TMR1_IRQHandler
+                0x00000000200038a8                TMR2_IRQHandler
+                0x00000000200038aa                UART0_IRQHandler
+                0x00000000200038ac                UART1_IRQHandler
+                0x00000000200038ae                RTC_IRQHandler
+                0x00000000200038b0                ADC_IRQHandler
+                0x00000000200038b2                PWMX_IRQHandler
+                0x00000000200038b4                TMR3_IRQHandler
+                0x00000000200038b6                UART2_IRQHandler
+                0x00000000200038b8                UART3_IRQHandler
+                0x00000000200038ba                WDOG_BAT_IRQHandler
+ *(.highcode)
+ .highcode      0x00000000200038bc      0x3c6 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+                0x00000000200038bc                SetSysClock
+                0x0000000020003b38                SYS_ResetExecute
+                0x0000000020003ba4                HardFault_Handler
+                0x0000000020003c14                mDelayuS
+                0x0000000020003c48                mDelaymS
+ .highcode      0x0000000020003c82      0x3ee ../SRC/StdPeriphDriver/libISP573.a(ISP573.o)
+                0x0000000020003c82                FLASH_ROM_BEG
+                0x0000000020003c94                FLASH_ROM_END
+                0x0000000020003ca2                FLASH_ROM_IN
+                0x0000000020003cb0                FLASH_ROM_OUT
+                0x0000000020003cbe                FLASH_ROM_ADDR
+                0x0000000020003d06                FLASH_ROM_WAIT
+                0x0000000020003d3e                FLASH_EEPROM_CMD
+ *(.highcode.*)
+                0x0000000020004070                . = ALIGN (0x4)
+                0x0000000020004070                PROVIDE (_highcode_vma_end = .)
+
+.text           0x0000000000000874      0x7e4
+                0x0000000000000874                . = ALIGN (0x4)
+ *(SORT_NONE(.handle_reset))
+ .handle_reset  0x0000000000000874       0xaa CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+                0x0000000000000874                handle_reset
+ *(.text)
+ *(.text.*)
+ .text.main     0x000000000000091e       0x9e CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+                0x000000000000091e                main
+ .text.GPIOA_ModeCfg
+                0x00000000000009bc      0x1be CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+                0x00000000000009bc                GPIOA_ModeCfg
+ .text.GPIOB_ModeCfg
+                0x0000000000000b7a      0x1be CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+                0x0000000000000b7a                GPIOB_ModeCfg
+ .text.PWMX_CycleCfg
+                0x0000000000000d38      0x1bc CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+                0x0000000000000d38                PWMX_CycleCfg
+ .text.PWMX_ACTOUT
+                0x0000000000000ef4      0x11a CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+                0x0000000000000ef4                PWMX_ACTOUT
+ *(.rodata)
+ *(.rodata*)
+ *fill*         0x000000000000100e        0x2 
+ .rodata.GPIOA_ModeCfg
+                0x0000000000001010       0x14 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .rodata.GPIOB_ModeCfg
+                0x0000000000001024       0x14 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .rodata.PWMX_CycleCfg
+                0x0000000000001038       0x20 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ *(.sdata2.*)
+ *(.glue_7)
+ *(.glue_7t)
+ *(.gnu.linkonce.t.*)
+                0x0000000000001058                . = ALIGN (0x4)
+
+.rela.dyn       0x0000000000001058        0x0
+ .rela.init     0x0000000000001058        0x0 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .rela.vector   0x0000000000001058        0x0 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .rela.handle_reset
+                0x0000000000001058        0x0 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+
+.fini           0x0000000000001058        0x0
+ *(SORT_NONE(.fini))
+                0x0000000000001058                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (_eitcm = .)
+
+.preinit_array  0x0000000000001058        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000001058        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000001058        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.dalign         0x0000000020004070        0x0 load address 0x0000000000001058
+                0x0000000020004070                . = (ORIGIN (RAM) + MAX (0x800, SIZEOF (.highcode)))
+
+.dlalign        0x0000000000001058        0x0
+                0x0000000000001058                . = ALIGN (0x4)
+                0x0000000000001058                PROVIDE (_data_lma = .)
+
+.data           0x0000000020004070        0x0 load address 0x0000000000001058
+                0x0000000020004070                . = ALIGN (0x4)
+                0x0000000020004070                PROVIDE (_data_vma = .)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ *(.gnu.linkonce.d.*)
+                0x0000000020004070                . = ALIGN (0x8)
+                0x0000000020004870                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x0000000020004070                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x0000000020004070                . = ALIGN (0x4)
+                0x0000000020004070                PROVIDE (_edata = .)
+
+.bss            0x0000000020004070        0x0 load address 0x0000000000001058
+                0x0000000020004070                . = ALIGN (0x4)
+                0x0000000020004070                PROVIDE (_sbss = .)
+ *(.sbss*)
+ *(.gnu.linkonce.sb.*)
+ *(.bss*)
+ *(.gnu.linkonce.b.*)
+ *(COMMON*)
+                0x0000000020004070                . = ALIGN (0x4)
+                0x0000000020004070                PROVIDE (_ebss = .)
+                [!provide]                        PROVIDE (_end = _ebss)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x0000000020008000        0x0
+                0x0000000020008000                . = ALIGN (0x4)
+                0x0000000020008000                PROVIDE (_eusrstack = .)
+OUTPUT(CH571Prj.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x3897
+ .debug_info    0x0000000000000000      0xcd0 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .debug_info    0x0000000000000cd0       0x22 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+ .debug_info    0x0000000000000cf2      0xdb0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .debug_info    0x0000000000001aa2      0xcf1 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .debug_info    0x0000000000002793     0x1104 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+
+.debug_abbrev   0x0000000000000000      0x9a8
+ .debug_abbrev  0x0000000000000000      0x1f7 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .debug_abbrev  0x00000000000001f7       0x12 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+ .debug_abbrev  0x0000000000000209      0x246 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .debug_abbrev  0x000000000000044f      0x235 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .debug_abbrev  0x0000000000000684      0x324 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+
+.debug_aranges  0x0000000000000000      0x150
+ .debug_aranges
+                0x0000000000000000       0x20 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .debug_aranges
+                0x0000000000000020       0x38 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+ .debug_aranges
+                0x0000000000000058       0x48 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .debug_aranges
+                0x00000000000000a0       0x30 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .debug_aranges
+                0x00000000000000d0       0x80 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+
+.debug_ranges   0x0000000000000000      0x108
+ .debug_ranges  0x0000000000000000       0x10 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .debug_ranges  0x0000000000000010       0x30 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+ .debug_ranges  0x0000000000000040       0x38 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .debug_ranges  0x0000000000000078       0x20 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .debug_ranges  0x0000000000000098       0x70 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+
+.debug_line     0x0000000000000000     0x1b84
+ .debug_line    0x0000000000000000      0x33a CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .debug_line    0x000000000000033a      0x289 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+ .debug_line    0x00000000000005c3      0x6e0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .debug_line    0x0000000000000ca3      0x57b CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .debug_line    0x000000000000121e      0x966 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+
+.debug_str      0x0000000000000000      0xe8e
+ .debug_str     0x0000000000000000      0x98e CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+                                        0xa04 (size before relaxing)
+ .debug_str     0x000000000000098e       0x71 CMakeFiles/CH571Prj.elf.dir/SRC/Startup/startup_CH573.S.obj
+                                         0xcc (size before relaxing)
+ .debug_str     0x00000000000009ff      0x16c CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+                                        0x948 (size before relaxing)
+ .debug_str     0x0000000000000b6b       0xb8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+                                        0x8d0 (size before relaxing)
+ .debug_str     0x0000000000000c23      0x26b CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+                                        0xb68 (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .comment       0x0000000000000033       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .comment       0x0000000000000033       0x34 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
+ .comment       0x0000000000000033       0x34 ../SRC/StdPeriphDriver/libISP573.a(ISP573.o)
+
+.debug_frame    0x0000000000000000      0x33c
+ .debug_frame   0x0000000000000000       0x2c CMakeFiles/CH571Prj.elf.dir/APP/src/Main.c.obj
+ .debug_frame   0x000000000000002c       0xe0 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_gpio.c.obj
+ .debug_frame   0x000000000000010c       0x78 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_pwm.c.obj
+ .debug_frame   0x0000000000000184      0x1b8 CMakeFiles/CH571Prj.elf.dir/SRC/StdPeriphDriver/CH57x_sys.c.obj
