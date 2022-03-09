@@ -1,3 +1,0 @@
-C:/Users/yekai/Documents/GitHub/ComputerOccupyingMonitor/EmbeddedProject/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/yekai/Documents/GitHub/ComputerOccupyingMonitor/EmbeddedProject/cmake-build-debug/CMakeFiles/CH571Prj.elf.dir
-C:/Users/yekai/Documents/GitHub/ComputerOccupyingMonitor/EmbeddedProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir

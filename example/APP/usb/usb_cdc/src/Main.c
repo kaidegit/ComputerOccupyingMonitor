@@ -47,7 +47,7 @@ int main()
   char data;
   SetSysClock(CLK_SOURCE_PLL_60MHz);
 
-  uart0_init();
+  uart0_init();¡£
   usb_cdc_init();
   PFIC_EnableIRQ(USB_IRQn);
   PFIC_EnableIRQ(UART0_IRQn);

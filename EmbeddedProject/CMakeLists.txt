@@ -20,7 +20,7 @@ set(CMAKE_C_STANDARD 11)
 
 add_compile_options(-march=rv32imac -mabi=ilp32 -msmall-data-limit=8 -mno-save-restore  -mcmodel=medany)
 add_compile_options(-fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common)
-add_compile_options(-Wunused -Wuninitialized -O0)
+add_compile_options(-Wunused -Wuninitialized -O2)
 
 # uncomment to mitigate c++17 absolute addresses warnings
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-register")
@@ -45,7 +45,7 @@ include_directories(
         APP/src
 )
 
-file(GLOB_RECURSE SOURCES "SRC/Startup/*.S" "SRC/StdPeriphDriver/*.c" "APP/src/*.c")
+file(GLOB_RECURSE SOURCES "SRC/Startup/*.S" "SRC/RVMSIS/*.c" "SRC/StdPeriphDriver/src/*.c" "APP/src/*.*" )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/SRC/Ld/Link.ld)
 

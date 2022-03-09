@@ -1,3 +1,3 @@
-example\APP\usb\usb_cdc\obj
-EmbeddedProject\APP\obj
-EmbeddedProject\cmake-build-debug
+/example/APP/usb/usb_cdc/obj/
+/EmbeddedProject/APP/obj/
+/EmbeddedProject/cmake-build-debug/
