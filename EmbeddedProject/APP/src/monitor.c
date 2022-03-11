@@ -5,6 +5,7 @@
 #include "monitor.h"
 #include "CH57x_common.h"
 #include "io_config.h"
+#include "log.h"
 
 // 由于CH571阉割了PWM模块和布线失误，这边暂时使用软件模拟PWM进行输出
 // 由于本项目要求不高，属于图一乐级别，而且经过测试，同占空比的100khz与100hz的pwm对电压表显示差别不大，大约相差0.1V
@@ -18,8 +19,8 @@
 
 #define COUNT_MAX 200
 #define PWM_FREQ 100
-uint8_t compare0, compare1;
-uint8_t count;
+uint16_t compare0, compare1;
+uint16_t count;
 
 void Monitor_PWM_Init() {
     compare0 = compare1 = 0;
@@ -39,20 +40,30 @@ void Monitor_PWM_Init() {
 
 // ch为通道，0为前表PA12，1为后表PA13
 // occupy为百分比，0-100
-void Monitor_Set_Usage(uint8_t ch, uint8_t usage) {
+void Monitor_Set_Usage(uint8_t ch, uint16_t usage) {
     if (usage > 100) {
         return;
     }
 #ifdef MEAN_FILTERING
-    static uint8_t usage_pp = 0, usage_p = 0;
-    usage = usage * 0.8 + usage_pp * 0.05 + usage_p * 0.15;
-    usage_pp = usage_p;
-    usage_p = usage;
-#endif
+    static uint16_t usage_pp_ch0 = 0, usage_p_ch0 = 0;
+    static uint16_t usage_pp_ch1 = 0, usage_p_ch1 = 0;
     if (ch == 0) {
-        compare0 = usage * COUNT_MAX * 3 / 3.3 / 100;
+        usage = (usage * 7 + usage_pp_ch0 * 1 + usage_p_ch0 * 2) / 10;
+        usage_pp_ch0 = usage_p_ch0;
+        usage_p_ch0 = usage;
+        log_printf("ch0:%d,%d,%d", usage, usage_p_ch0, usage_pp_ch0);
     } else if (ch == 1) {
-        compare1 = usage * COUNT_MAX * 3 / 3.3 / 100;
+        usage = (usage * 7 + usage_pp_ch1 * 1 + usage_p_ch1 * 2) / 10;
+        usage_pp_ch1 = usage_p_ch1;
+        usage_p_ch1 = usage;
+        log_printf("ch1:%d,%d,%d", usage, usage_p_ch1, usage_pp_ch1);
+    }
+#endif
+    usage > 100 ? usage = 100 : usage;
+    if (ch == 0) {
+        compare0 = (uint16_t) (usage * COUNT_MAX * 3 / 3.3 / 100);
+    } else if (ch == 1) {
+        compare1 = (uint16_t) (usage * COUNT_MAX * 3 / 3.3 / 100);
     }
 }
 

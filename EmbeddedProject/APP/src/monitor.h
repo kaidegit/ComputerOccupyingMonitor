@@ -9,6 +9,6 @@
 
 void Monitor_PWM_Init();
 
-void Monitor_Set_Usage(uint8_t ch, uint8_t usage);
+void Monitor_Set_Usage(uint8_t ch, uint16_t usage);
 
 #endif //CH571PRJ_MONITOR_H
