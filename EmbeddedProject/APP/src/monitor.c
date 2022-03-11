@@ -41,6 +41,9 @@ void Monitor_PWM_Init() {
 // ch为通道，0为前表PA12，1为后表PA13
 // occupy为百分比，0-100
 void Monitor_Set_Usage(uint8_t ch, uint16_t usage) {
+    if (usage == 0) {
+        usage++;
+    }
     if (usage > 100) {
         return;
     }
