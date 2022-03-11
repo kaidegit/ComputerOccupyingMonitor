@@ -132,7 +132,7 @@ void USB_DevTransProcess(void) {
                     if (R8_USB_INT_ST & RB_UIS_TOG_OK) {
                         // 不同步的数据包将丢弃
                         len = R8_USB_RX_LEN;
-                        ring_buffer_queue_arr(&usb_to_uart_rb, pEP2_OUT_DataBuf, len);
+                        ring_buffer_queue_arr(&usb_to_uart_rb, (char *)pEP2_OUT_DataBuf, len);
                         // DevEP2_OUT_Deal(len);
                     }
                 }

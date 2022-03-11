@@ -5,3 +5,7 @@ Program=true
 Verify=true
 Reset=true
 Target Path=obj/usb_cdc_uart.hex
+
+Vendor=WCH
+MCU=CH571F
+Link=WCH-Link

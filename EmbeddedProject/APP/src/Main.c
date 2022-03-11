@@ -1,14 +1,5 @@
-/********************************** (C) COPYRIGHT *******************************
- * File Name          : Main.c
- * Author             : WCH
- * Version            : V1.0
- * Date               : 2020/08/06
- * Description 		   : PWM4-11功能演示
- * Copyright (c) 2021 Nanjing Qinheng Microelectronics Co., Ltd.
- * SPDX-License-Identifier: Apache-2.0
- *******************************************************************************/
-
 #include <stdio.h>
+#include <stdarg.h>
 #include "CH57x_common.h"
 #include "monitor.h"
 #include "usb_cdc.h"
@@ -23,13 +14,6 @@ void log_printf(const char *fmt, ...);
 extern ring_buffer_t usb_to_uart_rb;
 extern ring_buffer_t uart_to_usb_rb;
 
-/*********************************************************************
- * @fn      main
- *
- * @brief   主函数
- *
- * @return  none
- */
 int main() {
     SetSysClock(CLK_SOURCE_PLL_60MHz);
 
@@ -80,8 +64,8 @@ void usb_uart_comm_handle(void) {
         for (uint8_t i = 0; i < len; i++) {
             if (recBuf[i] != '%') {
                 if (processLen < 64) {
-                    processLen++;
                     processString[processLen] = recBuf[i];
+                    processLen++;
                 } else {
                     processLen = 0;
                     memset(processString, 0, sizeof(processString));
@@ -90,11 +74,12 @@ void usb_uart_comm_handle(void) {
                 // processString应为"        CPU/RAM XXX"
                 // 如读取错误，processString应为"PU XXX" "XXX"等
                 // 提取数字思路：从最后开始提取
+                processLen--;
                 if (strstr(processString, "CPU") != NULL) {
                     uint8_t num = 0;
                     uint8_t numLen = 0;
-                    while (('0' < processString[processLen - numLen]) &&
-                           (processString[processLen - numLen] < '9')) {
+                    while (('0' <= processString[processLen - numLen]) &&
+                           (processString[processLen - numLen] <= '9')) {
                         num += (processString[processLen - numLen] - '0') * pow_u8(10, numLen);
                         numLen++;
                         if (numLen == 3) {
@@ -108,8 +93,8 @@ void usb_uart_comm_handle(void) {
                 } else if (strstr(processString, "RAM") != NULL) {
                     uint8_t num = 0;
                     uint8_t numLen = 0;
-                    while (('0' < processString[processLen - numLen]) &&
-                           (processString[processLen - numLen] < '9')) {
+                    while (('0' <= processString[processLen - numLen]) &&
+                           (processString[processLen - numLen] <= '9')) {
                         num += (processString[processLen - numLen] - '0') * pow_u8(10, numLen);
                         numLen++;
                         if (numLen == 3) {
@@ -139,12 +124,12 @@ void log_printf(const char *fmt, ...) {
 #ifdef LOG_EN
     uint16_t i;
     char buf[256];
+    va_list args;//定义一个指针变量
 
-    va_list arg = (va_list) ((char *) (&fmt) + 4);
-    i = vsprintf(buf, fmt, arg);
-    for (uint16_t j = 0; j < i; j++) {
-        ring_buffer_queue(&uart_to_usb_rb, buf[i]);
-    }
+    va_start (args, fmt);
+    i = vsnprintf(buf, sizeof(buf), fmt, args);
+    ring_buffer_queue_arr(&uart_to_usb_rb, buf, i);
+    va_end (args);
 #else
     (const char) *fmt;
 #endif

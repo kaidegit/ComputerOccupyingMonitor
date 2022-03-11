@@ -13,6 +13,9 @@
 // 由于电压表为3V版本，百分比 = 输出电压 / 3 = 3.3 / 3 * 比较值 / 200
 // 比较值 = 百分比 * 200 * 3 / 3.3
 
+// 启用均值滤波
+#define MEAN_FILTERING
+
 #define COUNT_MAX 200
 #define PWM_FREQ 100
 uint8_t compare0, compare1;
@@ -24,6 +27,10 @@ void Monitor_PWM_Init() {
     // 初始化GPIO
     GPIOA_ModeCfg(MONITOR_CH0_Pin, GPIO_ModeOut_PP_20mA); // PA12
     GPIOA_ModeCfg(MONITOR_CH1_Pin, GPIO_ModeOut_PP_20mA); // PA13
+
+    Monitor_Set_Usage(0, 10);
+    Monitor_Set_Usage(1, 10);
+
     // 初始化定时器
     TMR0_TimerInit(FREQ_SYS / COUNT_MAX / PWM_FREQ);         // 设置定时时间 1s/100/200
     TMR0_ITCfg(ENABLE, TMR0_3_IT_CYC_END); // 开启中断
@@ -33,9 +40,15 @@ void Monitor_PWM_Init() {
 // ch为通道，0为前表PA12，1为后表PA13
 // occupy为百分比，0-100
 void Monitor_Set_Usage(uint8_t ch, uint8_t usage) {
-    if (usage > 100){
+    if (usage > 100) {
         return;
     }
+#ifdef MEAN_FILTERING
+    static uint8_t usage_pp = 0, usage_p = 0;
+    usage = usage * 0.8 + usage_pp * 0.05 + usage_p * 0.15;
+    usage_pp = usage_p;
+    usage_p = usage;
+#endif
     if (ch == 0) {
         compare0 = usage * COUNT_MAX * 3 / 3.3 / 100;
     } else if (ch == 1) {

@@ -1,5 +1,5 @@
 ################################################################################
-# 自动生成的文件。不要编辑！
+# Automatically-generated file. Do not edit!
 ################################################################################
 
 -include ../makefile.init
@@ -44,12 +44,12 @@ SECONDARY_SIZE += \
 usb_cdc_uart.siz \
 
 
-# 所有目标
+# All Target
 all: usb_cdc_uart.elf secondary-outputs
 
-# 工具调用
+# Tool invocations
 usb_cdc_uart.elf: $(OBJS) $(USER_OBJS)
-	@	@	riscv-none-embed-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -T "C:\Users\23714\Desktop\CH573_CDC_OK\SRC\Ld\Link.ld" -nostartfiles -Xlinker --gc-sections -L"../" -Xlinker --print-memory-usage -Wl,-Map,"usb_cdc_uart.map" --specs=nano.specs --specs=nosys.specs -o "usb_cdc_uart.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	@	@	riscv-none-embed-gcc -march=rv32imac -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -T "C:\Users\yekai\Documents\GitHub\ComputerOccupyingMonitor\example\SRC\Ld\Link.ld" -nostartfiles -Xlinker --gc-sections -L"../" -Xlinker --print-memory-usage -Wl,-Map,"usb_cdc_uart.map" --specs=nano.specs --specs=nosys.specs -o "usb_cdc_uart.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@	@
 usb_cdc_uart.hex: usb_cdc_uart.elf
 	@	riscv-none-embed-objcopy -O ihex "usb_cdc_uart.elf"  "usb_cdc_uart.hex"
@@ -57,7 +57,7 @@ usb_cdc_uart.hex: usb_cdc_uart.elf
 usb_cdc_uart.siz: usb_cdc_uart.elf
 	@	riscv-none-embed-size --format=berkeley "usb_cdc_uart.elf"
 	@	@
-# 其他目标
+# Other Targets
 clean:
 	-$(RM) $(ASM_UPPER_DEPS)$(OBJS)$(SECONDARY_FLASH)$(SECONDARY_SIZE)$(ASM_DEPS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS) usb_cdc_uart.elf
 	-@
