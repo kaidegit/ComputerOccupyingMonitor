@@ -5,6 +5,7 @@
 #include "usb_cdc.h"
 #include "ringbuffer.h"
 #include "log.h"
+#include "led.h"
 
 
 void usb_uart_comm_handle(void);
@@ -20,6 +21,7 @@ int main() {
     usb_cdc_init();
 
     Monitor_PWM_Init();
+    LED_Init();
 
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "EndlessLoop"
@@ -86,6 +88,7 @@ void usb_uart_comm_handle(void) {
                     }
                     log_printf("CPU:%d\r\n", (int) num);
                     Monitor_Set_Usage(0, num);
+                    LED_Update();
                     processLen = 0;
                     memset(processString, 0, sizeof(processString));
                 } else if (strstr(processString, "RAM") != NULL) {
@@ -101,6 +104,7 @@ void usb_uart_comm_handle(void) {
                     }
                     log_printf("RAM:%d\r\n", (int) num);
                     Monitor_Set_Usage(1, num);
+                    LED_Update();
                     processLen = 0;
                     memset(processString, 0, sizeof(processString));
                 } else {
